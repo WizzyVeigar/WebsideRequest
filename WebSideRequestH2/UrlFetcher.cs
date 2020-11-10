@@ -28,8 +28,12 @@ namespace WebSideRequestH2
                 return reader.ReadToEnd();
             }
         }
-
-        public string FetchData(WebResponse response)
+        /// <summary>
+        /// If you want 
+        /// </summary>
+        /// <param name="response"></param>
+        /// <returns></returns>
+        public string GetHttpResponse(WebResponse response)
         {
             return ((HttpWebResponse)response).StatusDescription;
         }
