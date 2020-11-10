@@ -8,6 +8,9 @@ namespace WebSideRequestH2
 {
     interface IDataFetcher
     {
+        /// <summary>
+        /// Generic string for specifying the data path
+        /// </summary>
         string Path { get; }
         /// <summary>
         /// Generic method for fetching some data, using the path property
